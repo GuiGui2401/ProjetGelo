@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261428779915",
+    "project_id": "bloodbanksystem-6bfaa",
+    "storage_bucket": "bloodbanksystem-6bfaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261428779915:android:84e82a8a6a643186096d8e",
+        "android_client_info": {
+          "package_name": "com.example.projetgelo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6XvvCKTLGOBw0BN6tth5wqiNWIwpITto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

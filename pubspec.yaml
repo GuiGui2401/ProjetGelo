@@ -1,0 +1,67 @@
+name: projetgelo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  pin_code_fields: ^8.0.1
+  intl: ^0.18.0
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  google_nav_bar: ^5.0.6
+  flutter_svg: ^2.0.9 
+  firebase_core: ^2.29.0
+  firebase_auth: ^4.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - lib/image/
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBlack.ttf
+          weight: 900
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Inknut Antiqua
+      fonts: 
+        - asset: assets/fonts/InknutAntiquaRegular.ttf
+          weight: 400
+    - family: Inria Sans
+      fonts: 
+        - asset: assets/fonts/InriaSansBold.ttf
+          weight: 700
+    - family: Irish Grover
+      fonts: 
+        - asset: assets/fonts/IrishGroverRegular.ttf
+          weight: 400
